@@ -76,4 +76,14 @@ public class CalculatorFunctionsTest {
         assertEquals(expResult, result);
     }
     
+        @org.junit.Test
+    public void testDivide() {
+        System.out.println("Divide");
+        int x = 2;
+        int y = 2;
+        int expResult = 1;
+        int result = CalculatorFunctions.Divide(x, y);
+        assertEquals(expResult, result);
+    }
+    
 }
